@@ -2,7 +2,7 @@ import streamlit as st
 import pickle
 import pandas as pd
 
-# Load the trained model, scaler, and imputer
+# Load the trained model, scaler, and imputer 
 with open('finalized_model.pkl', 'rb') as model_file:
     model = pickle.load(model_file)
 
